@@ -430,8 +430,8 @@ end do
 C_d1 = P_sum / (0.5 * 1.184727451 * 2.0**2 * gamma1 * R_const * 298.0)
 print*,"C_d=",C_d1
 
-call system('gnuplot -p graph.plt')
-call system('gnuplot -p graph_div.plt')
+!call system('gnuplot -p graph.plt')
+!call system('gnuplot -p graph_div.plt')
 close(11)
 close(12)
 close(13)
